@@ -16,7 +16,8 @@ end
 # Write your test code here
 
 # 1. Create a new student using new and save
-
+student = Student.new(name: "John Snow")
+student.save
 # 2. Create a new student using create
 
 # 3. Select all students
