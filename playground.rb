@@ -19,7 +19,7 @@ end
 student = Student.new(name: "John Snow")
 student.save
 # 2. Create a new student using create
-
+Student.create(name: "Samwise Gamgee")
 # 3. Select all students
 # pay attention to the object that is returned to you, is it a Student object or Active Record relation object?
 
